@@ -5,7 +5,7 @@ import "fmt"
 func findMin(n []int) {
 	var current_min = n[0]
 
-	for i := 0; i < len(n); i++ {
+	for i := 1; i < len(n); i++ {
 		if (n[i] < current_min) {
 			current_min = n[i]
 		}
